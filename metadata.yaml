@@ -1,0 +1,6 @@
+name: mrfq
+display_name: 每日发情
+desc: 每日发情插件，发情时自动给用户主页点赞、戳一戳，支持连续发情加成与积分排行榜
+version: v1.1.0
+author: shutiaomao
+repo: "https://github.com/keaikeai1234567/astrbot-plugin-mrfq"

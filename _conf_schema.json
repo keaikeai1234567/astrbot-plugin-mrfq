@@ -1,0 +1,48 @@
+{
+  "基础奖励最小值": {
+    "description": "每次发情最少获得的积分",
+    "type": "int",
+    "default": 10,
+    "hint": "发情随机奖励的下限"
+  },
+  "基础奖励最大值": {
+    "description": "每次发情最多获得的积分",
+    "type": "int",
+    "default": 100,
+    "hint": "发情随机奖励的上限"
+  },
+  "连续发情加成": {
+    "description": "是否启用连续发情额外奖励",
+    "type": "bool",
+    "default": true
+  },
+  "连续发情加成上限": {
+    "description": "连续发情加成计算的最大天数",
+    "type": "int",
+    "default": 30,
+    "hint": "超过此天数不再增加加成"
+  },
+  "排行榜显示数量": {
+    "description": "排行榜显示前多少名",
+    "type": "int",
+    "default": 10,
+    "hint": "发情积分排行榜显示的条数"
+  },
+  "仅群聊可用": {
+    "description": "是否限制仅在群聊中使用",
+    "type": "bool",
+    "default": true
+  },
+  "启用点赞与戳一戳": {
+    "description": "发情成功时是否给用户主页点赞并发送戳一戳",
+    "type": "bool",
+    "default": true,
+    "hint": "仅 OneBot 协议（如 NapCat / Lagrange）有效；非该平台将自动跳过"
+  },
+  "点赞次数": {
+    "description": "每次发情给用户主页点赞的数量",
+    "type": "int",
+    "default": 10,
+    "hint": "QQ 每天对同一好友最多点赞 10 次，建议保持 10"
+  }
+}
