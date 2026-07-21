@@ -1,6 +1,6 @@
 # 每日发情
 
-ldmBot 每日发情插件，作者 shutiaomao。
+每日发情插件，作者 shutiaomao。
 
 ## 功能
 
